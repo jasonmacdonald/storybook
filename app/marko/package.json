@@ -1,0 +1,19 @@
+{
+  "name": "@storybook/marko",
+  "version": "0.0.1",
+  "description": "Storybook for MarkoJS: Develop MarkoJS components in isolation with hot reloading.",
+  "main": "dist/client/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storybooks/storybook.git"
+  },
+  "author": "Jason MacDonald (jason@allairis.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/storybooks/storybook/issues"
+  },
+  "homepage": "https://github.com/storybooks/storybook#readme"
+}
