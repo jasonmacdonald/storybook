@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    "lodash",
+    "syntax-dynamic-import",
+    "babel-plugin-transform-class-properties",
+    "babel-plugin-add-module-exports",
+    "babel-plugin-transform-export-extensions",
+    "babel-plugin-transform-object-assign",
+    "transform-function-bind",
+    "transform-do-expressions"
+  ],
+  "env": {
+    "test": {
+      "sourceMaps": "inline"
+    }
+  }
+}
+
