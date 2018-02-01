@@ -7,26 +7,26 @@ const getNextId = () => {
   return nextId;
 };
 
-const store = new Map({
-  todos: [
-    {
-      title: 'Learn marko',
-      completed: true,
-      id: getNextId(),
-    },
-    {
-      title: 'Build an awesome web app',
-      completed: false,
-      id: getNextId(),
-    },
-    {
-      title: 'Profit',
-      completed: false,
-      id: getNextId(),
-    },
-  ],
-  filter: 'all',
-});
+const store = new Map();
+store.set('todos', [
+  {
+    title: 'Learn marko',
+    completed: true,
+    id: getNextId(),
+  },
+  {
+    title: 'Build an awesome web app',
+    completed: false,
+    id: getNextId(),
+  },
+  {
+    title: 'Profit',
+    completed: false,
+    id: getNextId(),
+  },
+]);
+
+store.set('filter', 'all');
 
 /**
  * This is the "class" definition for our Todo app. On the client-side
